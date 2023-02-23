@@ -392,23 +392,20 @@ img{
 }
 
 /* Certifications */
-.certification_link{
+.certification_title{
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
   text-align: center;
   display: inline-flex;
   word-break: break-word;
   align-items: center;
-  font-size: var(--smaller-font-size);
   color: var(--text-color);
 }
 
-.certification_link:hover{
+.certification_title:hover{
   color: var(--title-color);
 }
 
-.certification_title{
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1);
-}
 
 /* Education and Experience */
 .education_content, .experience_content{
@@ -548,7 +545,7 @@ img{
     display: inline-block;
   }
 
-  .section-title, .profile_description, .certification_link{
+  .section-title, .profile_description, .certification_title{
     text-align: initial;
   }
 

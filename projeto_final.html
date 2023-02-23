@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Currículo Web </title>
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="projeto_final.css">
+
+        <!-- Scroll Top -->
+        <a href="#" class="scroll_top" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scroll_top_icon'></i>
+        </a>
+    </head>
+
+    <body>
+
+        <!-- Menu -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo"> Hugo Hashimoto </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home nav_icon'></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon'></i> Profile
+                            </a>
+                        </li>
+                        
+                        <li class="nav_item">
+                            <a href="#certifications" class="nav_link">
+                                <i class='bx bx-award nav_icon'></i> Certifications
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase nav_icon'></i> Experience
+                            </a>
+                        </li>
+                        
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon'></i> Education
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon'></i> Skills
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main bd-container">
+
+            <!-- Everything in this div will be printed out in the PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume_left">
+
+                    <!-- Home -->
+                    <section class="home" id="home">
+                        <div class="home_container section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="foto_para_curriculo.jpeg" alt="" class="home_img">
+                                
+                                <h1 class="home_title"> <b> Hugo Gomes Hashimoto </b> </h1>
+                                <h3 class="home_profession"> Data Scientist </h3>
+
+                                <!-- Button to generate and download the pdf -->
+                                <div>
+                                    <a download="" href="Hugo_Hashimoto_CV.pdf" class="home_button-movil"> Download </a>
+                                </div>
+                            </div>
+
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class="bx bx-map home_icon"></i> Aveiro, Portugal
+                                </span>
+
+                                <span class="home_information">
+                                    <i class="bx bx-envelope home_icon"></i> hugo_hashimoto@hotmail.com
+                                </span>
+
+                                <span class="home_information">
+                                    <i class="bx bx-phone home_icon"></i> (+351) 932-950-271
+                                </span>
+
+                                <div class="social_container bd-grid">
+                                    <a href="https://pt.linkedin.com/in/hugohashimoto" target="_blank" class="social_link">
+                                        <i class="bx bxl-linkedin-square social_icon"></i> @hugohashimoto
+                                    </a>
+                                
+                                    <a href="https://github.com/hugohashi" target="_blank" class="social_link">
+                                        <i class='bx bxl-github social_icon'></i> @hugohashi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Button to change the theme -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf -->
+                        <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                    <!-- Profile -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title"> Profile </h2>
+                        <p class="profile_description"> I'm a mechanical engineering student who wants to make a transition to data science. I'm an enthusiast about programming and during the last year I took time to start learning and developing some skills with Python. My goal is to start working in this area that I love so much. </p>
+                    </section>
+
+                    <!-- Languages -->
+                    <section class="languages section">
+                        <h2 class="section-title"> Languages </h2>
+
+                        <div class="languages_container">
+                            <ul class="languages_content bd-grid">
+
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Portuguese
+                                </li>
+
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> English
+                                </li>
+
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!-- Certifications -->
+                    <section class="certifications section" id="certifications">
+                        <h2 class="section-title"> Certifications </h2>
+
+                        <div class="certification_container bd-grid">
+                            <div class="certification_content">
+                                <h3 class="certification_title"> Introduction to Statistics </h3>
+                                <a href="https://www.coursera.org/verify/58YFFW3BQ2H9" target="_blank" class="certification_link"> https://www.coursera.org/verify/58YFFW3BQ2H9
+                                </a>
+                            </div>
+
+                            <div class="certification_content">
+                                <h3 class="certification_title"> Data Science Math Skills </h3>
+                                <a href="https://coursera.org/verify/W9L5TCE5L8Y8" target="_blank" class="certification_link"> https://coursera.org/verify/W9L5TCE5L8Y8
+                                </a>
+                            </div>
+                            
+                            <div class="certification_content">
+                                <h3 class="certification_title"> AWS Machine Learning Foundations 2022 </h3>
+                                <a href="https://graduation.udacity.com/api/graduation/certificate/9ACMGPGZ/download" target="_blank" class="certification_link"> https://graduation.udacity.com/api/graduation/certificate/9ACMGPGZ/download
+                                </a>
+                            </div>
+                            
+                            <div class="certification_content">
+                                <h3 class="certification_title"> Data Science Foundations </h3>
+                                <a href="https://verify.mygreatlearning.com/verify/LLTMLAAK" target="_blank" class="certification_link"> https://verify.mygreatlearning.com/verify/LLTMLAAK
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume_right">
+
+                    <!-- Experience -->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title"> Experience </h2>
+
+                        <div class="experience_container bd-grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title"> Mechanical Engineer Intern </h3>
+                                    <span class="experience_company"> Jul, 2022 - Aug, 2022 | COFICAB, Guarda, Portugal </span>
+                                    <p class="experience_description"> Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity. </p>
+                                </div>
+                            </div>
+
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <!-- <span class="experience_line"></span> -->
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title"> Machinery operator </h3>
+                                    <span class="experience_company"> 2018 - 2023 | Renault, Cacia, Portugal</span>
+                                    <p class="experience_description"> Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity. </p>
+                                </div>
+                            </div>                            
+                        </div>
+                    </section>
+
+                    <!-- Education -->
+                    <section class="education section" id="education">
+                        <h2 class="section-title"> Education </h2>
+
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> Mechanical Engineering </h3>
+                                    <span class="education_studies"> University of Aveiro, Aveiro, Portugal</span>
+                                    <span class="education_year"> 2018 - 2023</span>
+                                </div>
+                            </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> Economics </h3>
+                                    <span class="education_studies"> Orange Coast College, California, US</span>
+                                    <span class="education_year"> 2016 - 2018</span>
+                                </div>
+                            </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <!-- <span class="education_line"></span> -->
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> High School</h3>
+                                    <span class="education_studies"> Lakeview High School, Michigan, US</span>
+                                    <span class="education_year"> 2015 - 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Skills -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title"> Skills </h2>
+
+                        <div class="skills_content bd-grid">
+                            <ul class="skills_data">
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Python
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> SQL
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> CSS
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> HTML
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> JavaScript
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Jupyter Notebook
+                                </li>
+                                
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> OpenCV
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Rospy
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Git
+                                </li>
+
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Linux Operational System
+                                </li>
+                            </ul>
+                        </div>
+                    </section>                    
+                </div>
+            </div>        
+        </main>
+                <!-- HTML2PDF -->
+                <script src="html2pdf.js"></script>
+
+                <!-- JavaScript -->
+                <script src = "projeto_final.js"> </script>
+    </body>
+</html>

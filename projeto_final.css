@@ -4,7 +4,7 @@
 /* CSS variables */
 :root {
   --header-height: 3rem;
-  
+
   /* Colors */
   --title-color: #0B0A0A;
   --text-color: #403A3A;
@@ -405,7 +405,6 @@ img{
 .certification_title:hover{
   color: var(--title-color);
 }
-
 
 /* Education and Experience */
 .education_content, .experience_content{
